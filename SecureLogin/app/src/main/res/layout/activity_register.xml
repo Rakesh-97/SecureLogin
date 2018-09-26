@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/registrationTEXT"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registrationTEXT"
+        android:hint="Username"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:layout_width="45dp"
+        android:id="@+id/check_availability"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@+id/usernameET"
+        android:layout_below="@+id/registrationTEXT"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/check_available"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/emailET"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/usernameET"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/pinET"
+        android:inputType="textPassword"
+        android:layout_below="@id/emailET"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="35dp"
+        android:background="@drawable/shw_pw_icon"
+        android:id="@+id/show_password"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@+id/pinET"
+        android:layout_below="@+id/emailET"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinET"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/selectImageBTN"
+        android:text="Select Password Image"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedIMGNAME"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_below="@id/selectImageBTN"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:id="@+id/selectedIMG"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/selectedIMGNAME"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/registerBTN"
+        android:layout_width="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/selectedIMG"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/submit_btn" />
+
+
+
+</RelativeLayout>

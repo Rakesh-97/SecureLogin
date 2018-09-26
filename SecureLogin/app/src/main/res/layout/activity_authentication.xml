@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authentication"
+        android:textSize="30dp"
+        android:id="@+id/headingtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/usernameTxtView"
+        android:layout_below="@id/headingtext"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Password Image"
+        android:layout_below="@id/usernameTxtView"
+        android:id="@+id/selectImageBTNinAUTH"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectedIMGNAMEinAUTH"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:layout_below="@id/selectImageBTNinAUTH"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:id="@+id/selectedIMGinAUTH"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/selectedIMGNAMEinAUTH"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_marginLeft="50dp"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/pinedittextinAUTH"
+        android:layout_below="@id/selectedIMGinAUTH"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="35dp"
+        android:background="@drawable/shw_pw_icon"
+        android:id="@+id/show_password_in_auth"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@+id/pinedittextinAUTH"
+        android:layout_below="@+id/selectedIMGinAUTH"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="5dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="75dp"
+        android:background="@drawable/login_button"
+        android:id="@+id/LoginBTNinAUTH"
+        android:layout_below="@id/pinedittextinAUTH"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
