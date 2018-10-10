@@ -2,9 +2,9 @@
 
 This Project is based on the two factor authentication for secure Login.
 It have three parts:-
-  1. SecureLogin Android Application 
-  2. Backend_Scripts are scripts which are run on the server.
-  3. Web Sites are set of Web pages which are used as Service Provider site where we login using SecureLogin App.
+  - SecureLogin Android Application 
+  - Backend_Scripts are scripts which are run on the server.
+  - Web Sites are set of Web pages which are used as Service Provider site where we login using SecureLogin App.
 
 Here I use Image stagnography for secure the login Procedure. Firstly every user register herself on the Andorid app where Unique Username, Password and PasswordImage are required. Hash of these informaiton will gone to server where script are running which is given an hash 512bit mobile token and we will store token in the app. Here Server store only the hash of Username in database.
 
