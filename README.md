@@ -12,9 +12,6 @@ After that when we want to login on the Service Provider site then just enter th
 
 For authentication, user enter the Password and PasswordImage on the mobile app and hash of those information is compared to the 512bit mobile token if it is matched then you are succesfully authenticate.
 Project Screenshots:
-![Screenshot Image](https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820641.png)
-![Screenshot Image](https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820951.png)
-![Screenshot Image](https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820966.png)
-![Screenshot Image](https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820681.png)
-![Screenshot Image](https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820686.png)
-![Screenshot Image](https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820694.png)
+
+<img src = "https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820641.png" width="180">		<img src = "https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820681.png" width="180">		<img src = "https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820686.png" width="180">
+<img src = "https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820694.png" width="180">		<img src = "https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820951.png" width="180">		<img src = "https://github.com/Spider34/SecureLogin/blob/master/Screenshot_1542820966.png" width="180">
